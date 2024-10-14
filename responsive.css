@@ -1,0 +1,83 @@
+@media only screen and (min-width: 2000px) {
+
+    .Header .Navigation{
+        width: 1800px;
+        margin: auto;
+        padding: 0px 0px;
+    }
+
+
+  }
+  /* Hear XXL Size code closs */
+
+@media screen  and (max-width:1500px){
+
+    .Header .NavArea{
+        height: 68px;
+    }
+
+
+    .Header .Navigation{
+        padding: 0px 10%;
+    }
+
+    .Header .Pages{
+        font-size: 14px;
+        font-weight: 500;
+
+    }
+
+    .Header .Logo{
+        width: 120px;
+    }
+}
+/* Hear Closs Xl Size page  */
+
+@media  screen and (max-width:1000px) {
+
+    .Header .Navigation{
+        display: flex;
+        align-items: center;
+        padding: 0px 7%;
+    }
+
+    .Header .Pages button{
+        display: none;
+
+    }
+
+
+}
+/* Clossing L size page */
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:750px) {
+
+    .Header .Navigation .Pages{
+        display: none;
+    }
+
+    .Header  .MenuBar{
+        display: block;
+    }
+
+    .Header .Navigation{
+        padding: 0px 30px;
+    }
+
+    .Header .NavMbScreen{
+        display: block;
+
+    }
+
+
+  }
+  /* Clossing SM size hear */
