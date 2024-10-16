@@ -181,31 +181,77 @@ img{
         color: var(--SubFontColor);
         padding: 0px 30px;
     }
+    /* ###### Closs Navigation css  */
 
 
-
-
+    /*  Start Header and Home section style css  */
     .Header .Home{
         height: 100vh;
         padding: 0px 12%;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        display: none;
+        
     }
 
-    .Home .Text_Side h2{
-        font-size: 80px;
-        font-weight: 400;
-        text-transform: uppercase;
+    .Header .Home .Text_Side{
+        width: 50%;
     }
 
     .Home .Text_Side h1{
-        font-size: 120px;
+        font-size: 50px;
         font-weight: 800;
+        
+    }
+
+    .Header .Home .Text_Side h3{
+        font-size: 20px;
+        margin-top: 14px;
+    }
+
+    .Header .Home .Text_Side .SamaryText{
+        font-size: 14px;
+        margin-top: 14px;
+    }
+
+    .Header .Home .Text_Side .HeirBtn{
+        font-size: 15px;
+        color: var(--ButtonFColor);
+        background-color: var(--ButtonBgColor);
+        border-radius: 30px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        outline: none;
+    }
+
+    .Header .Home .Text_Side .QfBox{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: white;
+        height: 120px;
+        border-radius: 6px;
+        margin-top: 40px;
+    }
+
+    .Header .Home .Text_Side .QfBox h3{
+        
+        margin-top: 0px;
+        font-size: 30px;
         text-transform: uppercase;
+        text-align: center;
+    }
+
+    .Header .Home .Text_Side .QfBox p{
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
     }
 
     .Home .HeroImage{
         width: 40%;
+        overflow: hidden;
+        border-radius: 10px;
     }

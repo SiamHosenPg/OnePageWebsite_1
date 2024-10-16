@@ -6,6 +6,13 @@
         padding: 0px 0px;
     }
 
+    .Header .Home{
+        padding: 0px 0%;
+        width: 1800px;
+        margin: auto;
+        
+    }
+
 
   }
   /* Hear XXL Size code closs */
@@ -24,16 +31,33 @@
     .Header .Pages{
         font-size: 14px;
         font-weight: 500;
-
     }
 
     .Header .Logo{
         width: 120px;
     }
+    .Header .Home{
+        padding: 0px 10%;
+    }
+
+    .Home .Text_Side h1{
+        font-size: 40px; 
+    }
+
+    .Header .Home .Text_Side h3{
+        font-size: 19px;
+    }
+
+
+
+
+
+
+
 }
 /* Hear Closs Xl Size page  */
 
-@media  screen and (max-width:1000px) {
+@media  screen and (max-width:1025px) {
 
     .Header .Navigation{
         display: flex;
@@ -45,6 +69,22 @@
         display: none;
 
     }
+
+    .Home .Text_Side h1{
+        font-size: 30px; 
+    }
+
+    .Header .Home .Text_Side .QfBox{
+        width: 85%;
+        height: 90px;
+        margin-top: 30px;
+    }
+
+    .Header .Home .Text_Side .QfBox h3{
+        margin-top: 0px;
+        font-size: 25px;
+    }
+
 
 
 }
