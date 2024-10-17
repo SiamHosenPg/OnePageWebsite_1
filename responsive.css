@@ -118,6 +118,51 @@
 
     }
 
+    .Header .Home{
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 0px 0%;
+        padding-top: 100px;
+        
+    }
+
+    .Header .Home .Text_Side{
+        width: 100%;
+        padding: 0px 30px;
+        margin-top: 50px;
+    }
+
+    .Home .Text_Side h1{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .Header .Home .Text_Side h3{
+        font-size: 18px;
+        margin-top: 14px;
+    }
+
+    .Header .Home .Text_Side .QfBox{
+        width: 100%;
+        height: 90px;
+        margin-top: 40px;
+    }
+
+    
+    .Header .Home .Text_Side .QfBox h3{
+        font-size: 20px;
+    }
+
+    .Header .Home .Text_Side .QfBox p{
+        font-size: 13px;
+    }
+
+    .Home .HeroImage{
+        width: 60%;
+    }
+
+
+
+
 
   }
   /* Clossing SM size hear */

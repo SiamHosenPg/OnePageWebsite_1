@@ -174,7 +174,7 @@ img{
         
 
 
-    .Header .NavMbScreen .NvFootetr{
+    .Header .NavMbScreen .NvFooter{
         position: absolute;
         bottom: 20px;
         font-size: 13px;
@@ -222,6 +222,7 @@ img{
         padding: 10px 20px;
         margin-top: 20px;
         outline: none;
+        display: block;
     }
 
     .Header .Home .Text_Side .QfBox{
